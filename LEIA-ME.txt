@@ -1,0 +1,1 @@
+Abra no Android Studio e execute Build APK(s).
