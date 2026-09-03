@@ -1,0 +1,1 @@
+Projeto Android Studio de exemplo para conectar às redes JSL-OPERACAO e CONNECT usando WifiNetworkSuggestion.
