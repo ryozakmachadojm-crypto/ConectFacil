@@ -15,9 +15,10 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - uses: gradle/gradle-build-action@v3
+      - name: Listar arquivos
+        run: ls -R
 
-      - name: Build APK
+      - name: Compilar APK
         run: ./gradlew assembleDebug
 
       - name: Upload APK
